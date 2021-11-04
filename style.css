@@ -74,7 +74,7 @@ strong { font-weight: var(--fw-bold) }
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
-    color: var(--clr-dark);
+    color: #FFF;
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -112,7 +112,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro strong {
     display: block;
-    color: white;
+    color: #FFF;
 }
 
 .section__subtitle {
@@ -373,7 +373,7 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
-        color: white;
+        color: #FFF;
     }
     
     .about-me__img {
