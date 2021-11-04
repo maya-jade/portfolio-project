@@ -109,7 +109,6 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
-    color: #FFF;
 }
 
 .section__title--intro strong {
@@ -133,6 +132,11 @@ h3 { font-size: var(--fs-h3) }
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+}
+
+.section_subtitle--intro {
+    color: #FFF;
+}
 }
 
 /* header */
