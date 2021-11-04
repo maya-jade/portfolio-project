@@ -82,6 +82,7 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    font-size: 1rem;
 }
 
 .btn:hover {
