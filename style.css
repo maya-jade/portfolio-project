@@ -108,11 +108,11 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+    color: #FFF;
 }
 
 .section__title--intro strong {
     display: block;
-    color: #FFF;
 }
 
 .section__subtitle {
