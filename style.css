@@ -112,6 +112,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro strong {
     display: block;
+    color: white;
 }
 
 .section__subtitle {
@@ -372,6 +373,7 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        color: white;
     }
     
     .about-me__img {
