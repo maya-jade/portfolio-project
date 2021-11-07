@@ -396,12 +396,6 @@ header {
     display: flex;
 }
 
-.portfolio__img {
-    transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-}
-
 
 /* footer */
 
