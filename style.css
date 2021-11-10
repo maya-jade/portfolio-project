@@ -399,7 +399,7 @@ header {
 }
 
 .slideshow-container img {
-  height: 500px;
+  max-height: 500px;
 }
 
 /* Hide the images by default */
