@@ -401,6 +401,10 @@ h3 {
     display: none;
   }
 
+  .mobile-work {
+    background-color: var(--clr-dark);
+  }
+
   .mobile-work img {
     padding: 1em;
   }
