@@ -405,6 +405,14 @@ h3 {
     background-color: var(--clr-dark);
   }
 
+  .mobile-work p {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+    padding: 1em;
+  }
+
   .mobile-work img {
     padding: 1em;
   }
