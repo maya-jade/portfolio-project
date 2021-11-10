@@ -380,6 +380,18 @@ h3 {
   height:500px;
 }
 
+@media (max-width: 1090px) {
+  .slideshow-container {
+    display: none;
+  }
+}
+
+@media (min-width: 1089px) {
+  .mobile-work {
+    display: none;
+  }
+}
+
 .mySlides {
   display:none;
 }
