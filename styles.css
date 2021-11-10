@@ -405,13 +405,13 @@ h3 {
     background-color: var(--clr-dark);
   }
 
-  .mobile-work p {
+  .mobile-work h3 {
     text-align: center;
     color: white;
     font-size: 1em;
   }
 
-  .mobile-work p:first-of-type {
+  .mobile-work h3:first-of-type {
     margin-top: 0;
     border: none;
   }
