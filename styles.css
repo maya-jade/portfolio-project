@@ -401,6 +401,9 @@ h3 {
     display: none;
   }
 
+  section {
+      padding: 2em;
+  }
   .mobile-work {
     background-color: var(--clr-dark);
   }
