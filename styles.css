@@ -384,6 +384,12 @@ h3 {
   .slideshow-container {
     display: none;
   }
+  .mobile-work {
+    height: auto;
+  }
+  .mobile-work img {
+    padding: 2em;
+  }
 }
 
 @media (min-width: 1089px) {
