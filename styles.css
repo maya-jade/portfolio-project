@@ -409,8 +409,10 @@ h3 {
     text-align: center;
     color: white;
     font-size: 1em;
-    margin-top: 0;
-    padding: 0.5em;
+  }
+
+  .mobile-work p:first-of-type {
+  margin-top: 0;
   }
 
   .mobile-work img {
