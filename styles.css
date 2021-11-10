@@ -408,9 +408,9 @@ h3 {
   .mobile-work p {
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
     margin-top: 0;
-    padding: 1em;
+    padding: 0.5em;
   }
 
   .mobile-work img {
