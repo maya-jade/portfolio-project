@@ -6,25 +6,26 @@
         <title>Maya Jade - Front End Dev</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
         <!-- CSS -->
         <link rel="stylesheet" href="styles.css">
-
-    </head>
-    <body>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
         <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
+          <nav role="navigation">
+            <div id="menuToggle">
+               <input type="checkbox" />
+                 <span></span>
+                 <span></span>
+                 <span></span>
+               <ul id="menu" class="nav_list">
+                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                 <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                 <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                 <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                 <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+             </div>
+           </nav>
         </header>
 
         <!-- Introduction -->
@@ -83,7 +84,8 @@
 
           <!-- My Work -->
         <section id="work">
-          <h2 class="section__title--work">Portfolio</h2>
+          <h2 class="section__title--work">My Work</h2>
+          <h3 class="workh3">Made with love for design.</h3>
             <!-- Slideshow container -->
              <div class="slideshow-container">
                <!-- Full-width images with number-->
@@ -143,10 +145,9 @@
 
 
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer" id="contact">
           <p class="footerheader">Let's get in touch!</p>
-            <a href="mailto:mayajade.dev@gmail.com class="footer__link">mayajade.dev@gmail.com</a>
-
+            <a href="mailto:mayajade.dev@gmail.com" class="footer__link">mayajade.dev@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="www.linkedin.com/in/mayajade">
@@ -162,8 +163,7 @@
         </footer>
 
         <!-- Javascript for Burger Menu -->
-        <script src="index.js"></script>
+        <script src="burgermenu.js"></script>
+        <script src="slideshow.js"></script>
     </body>
 </html>
-
-<!--
