@@ -141,6 +141,8 @@ h3 {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+  margin-left: 1em;
+
 }
 
 #menuToggle input
@@ -200,7 +202,7 @@ h3 {
 #menu
 {
   position: absolute;
-  width: 250px;
+  width: 260px;
   height: 500px;
   box-shadow: 0 0 10px #85888C;
   margin: -50px 0 0 -50px;
@@ -230,6 +232,8 @@ h3 {
   text-decoration: none;
   color: var(--clr-accent);
   font-weight: bold;
+  margin-left: 1em;
+  font-size: 1.25em;
 }
 
 .intro {
