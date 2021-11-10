@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-hr {
-  width: 100%;
-  color: gray;
-  /* padding: 0; */
-}
-
 /* Custom Properties*/
 
 :root {
@@ -64,6 +58,11 @@ img {
 
 strong {
   font-weight:var(--fw-bold);
+  }
+
+hr {
+    width: 100%;
+    color: gray;
   }
 
 :focus{
@@ -403,7 +402,6 @@ h3 {
     display: none;
   }
   .mobile-work {
-    height: auto;
     max-width: 100%;
   }
   .mobile-work img {
