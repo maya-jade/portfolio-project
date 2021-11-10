@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+hr {
+  width: 100%;
+  color: gray;
+}
+
 /* Custom Properties*/
 
 :root {
@@ -141,8 +146,8 @@ h3 {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
-  margin-left: 1em;
-
+  padding: 1em;
+  text-align: center;
 }
 
 #menuToggle input
@@ -232,8 +237,16 @@ h3 {
   text-decoration: none;
   color: var(--clr-accent);
   font-weight: bold;
-  margin-left: 1em;
   font-size: 1.25em;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#menu a:focus {
+  outline: 0;
+  border: none;
 }
 
 .intro {
