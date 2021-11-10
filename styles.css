@@ -386,9 +386,10 @@ h3 {
   }
   .mobile-work {
     height: auto;
+    max-width: 100%;
   }
   .mobile-work img {
-    padding: 2em;
+    padding: 1em;
   }
 }
 
