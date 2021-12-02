@@ -40,8 +40,8 @@
                 Hey, I'm <strong>Maya Jade</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Front-end Dev</p>
-            <img src="selfie2.jpg" alt="a picture of me smiling" class="intro__img">
-        </section>
+            <img src="selfie2.jpg" alt="Maya Jade" class="intro__img">
+        </section>          
 
 
         <!-- My Services -->
@@ -77,10 +77,9 @@
         <section class="about-me" id="about">
            <h2 class="section__title section__title--about">About me</h2>
            <p class="section__subtitle section__subtitle--about">Designer & developer based out of Florida</p>
-
            <div class="about-me__body">
-              <a class="react-card-link" href="https://maya-jade.github.io/react-card" target="_blank">Check out my virtual business card made with React!</a>
-               <p>As a developer, I specialize in creating responsive, modular, and scalable front-end architectures. As an IT specialist, I focus on project management, customer service, and driving results without authority. I am also exploring more creative hobbies with my small business Hognose Queen, a reptile breeding program I run from my home. I also like dogs.</p>
+            <a class="react-card-link" href="https://maya-jade.github.io/react-card" target="_blank">Check out my virtual business card app to learn more!</a>
+               <p>As a developer, I specialize in creating responsive, modular, and scalable front-end architectures. As an IT specialist, I focus on project management, customer service, and driving results without authority. I am also exploring creative hobbies with my small reptile business, Hognose Queen LLC.</p>
            </div>
 
            <img src="selfie1.png" alt="a picture of me" class="about-me__img">
@@ -89,9 +88,8 @@
 
           <!-- My Work -->
         <section id="work">
-          <h2 class="section__title--work">My Featured Work</h2>
-          <h3 class="workh3">Made with love for design.</h3>
-          <p>(click to expand)</p>
+          <h2 class="section__title--work">Featured Projects</h2>
+
             <!-- Slideshow container -->
              <div class="slideshow-container">
                <!-- Full-width images with number-->
@@ -129,7 +127,7 @@
                  <div class="numbertext">7 / 8</div>
                  <a href="https://maya-jade.github.io/exclusive-vip-taxi-llc/" target="_blank"><img src="VIPtaxi.png" style="width:100%"></a>
                </div>
-
+              <p>(click screenshot to open in a new tab)</p>
                <!-- Next and previous buttons -->
                <div>
                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -147,7 +145,21 @@
              </div>
            </div>
          </div>
-</section>
+        </section>
+         <section class="work-info">
+           <h3>Let's dive into some of these projects...</h3>
+           <ol class="work-list">
+            <li><a href="https://maya-jade.github.io/login-page/" target="_blank">Login page</a> - a clean, simple, and fully responsive login page that features social media logins.</li>
+             <li><a href="https://www.hognosequeen.com" target="_blank">HognoseQueen.com</a> - my reptile business website that I created from scratch.</li>
+             <li><a href="https://www.renlasan.com" target="_blank">RenLasan.com</a> - a WordPress website created with Elementor for a client who has his own Youtube channel.</li>
+             <li><a href="https://maya-jade.github.io/bootstrap-theme-dark/" target="_blank">Bootstrap Template</a> - a single-page template I created with Bootstrap that can be used as a product and/or landing page.</li>
+             <li><a href="https://maya-jade.github.io/blackjack-game/" target="_blank">Blackjack Game</a> - a simple, yet functional Blackjack game I created with vanilla javascript. (I hope you win!)</li>
+             <li><a href="https://www.BungalowSavings.com" target="_blank">BungalowSavings.com</a> - a WooCommerce WordPress site that I maintain for my significant other. I am responsible for backend maintenance and template customization including custom css. </li>
+             <li><a href="https://maya-jade.github.io/exclusive-vip-taxi-llc/" target="_blank">VIP Taxi LLC</a> - a landing page for a taxi service which allows the user to pick their preferred language as requested by the client. This project is currently ongoing.</li>
+             <li><a class="react-card-link" href="https://maya-jade.github.io/react-card" target="_blank">Virtual Business Card</a> - a virtual business card app I created using React!</li>
+           </ol>
+         </section>
+
 
          <!-- My Work (For Mobile Only) -->
          <div class="mobile-work">
@@ -169,8 +181,22 @@
 
         <!-- Footer -->
         <footer class="footer" id="contact">
-          <p class="footerheader">Let's get in touch!</p>
+          <p class="footerheader">We should get in touch!</p>
             <a href="mailto:mayajade.dev@gmail.com" class="footer__link">mayajade.dev@gmail.com</a>
+            <br>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Meet my boss</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>His name is <a href="https://www.instagram.com/voidthedoodle">Void.</a> He's furry, proud, and friendly.</p>
+                <img src="voidthedoodle.jpg">
+              </div>
+            </div>
+            <!-- Social Icons -->
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="www.linkedin.com/in/mayajade">
@@ -187,5 +213,6 @@
 
         <!-- Javascript for Image Slideshow -->
         <script src="slideshow.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
