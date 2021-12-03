@@ -24,6 +24,8 @@
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
+
+    --modal-duration: 1s;
 }
 
 @media (min-width: 800px) {
@@ -609,45 +611,12 @@ h3 {
   /* transform: translate(-50%, -50%); */
 }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  padding: 20px;
-  border: 1px solid #888;
-}
-
-.modal img {
-  margin: auto;
-}
-
-.modal a {
-  text-decoration: none;
-  color: var(--clr-accent);
-  font-weight: bold;
-}
-
-.modal a:hover {
-  opacity: .7;
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#myBtn {
+/* Modal  */
+.modal-button {
+  /* display:inline-block; */
+  display: none;
   padding:.5em 2.5em;
-  background: var(--clr-accent);
+  background:var(--clr-accent);
   color:#fff;
   text-decoration:none;
   cursor:pointer;
@@ -657,6 +626,51 @@ h3 {
   font-weight:var(--fw-bold);
   transition:transform .2s ease-in-out;
   font-size:1rem;
-  display: none;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  overflow: auto;
+  margin-top:0;
+}
+
+.modal-body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #fff;
+}
+
+.modal-content {
+  margin: 10% auto;
+  width: 50%;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.close {
+  color: black;
+  font-size: 50px;
+  align-self: flex-end;
+  height: 5%;
+}
+
+.close:focus, .close:hover {
+  color: gray;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

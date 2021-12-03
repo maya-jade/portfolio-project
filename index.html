@@ -78,10 +78,21 @@
            <h2 class="section__title section__title--about">About me</h2>
            <p class="section__subtitle section__subtitle--about">Designer & developer based out of Florida</p>
            <div class="about-me__body">
-               <p>As a developer, I specialize in creating responsive, modular, and scalable front-end architectures. As an IT specialist, I focus on project management, customer service, and driving results without authority. I am also exploring creative hobbies with my small reptile business, Hognose Queen LLC.</p>
-           </div>
-
-           <img src="selfie1.png" alt="a picture of me" class="about-me__img">
+               <p>As a developer, I specialize in creating responsive, modular, and scalable front-end architectures. As an IT specialist, I focus on project management, customer service, and driving results without authority. I am also exploring creative hobbies with my small reptile business, Hognose Queen LLC. </p>
+               <button id="modal-btn" class="modal-button">Meet my Boss</button>
+              </div>
+           <img src="selfie1.png" alt="Maya Jade" class="about-me__img">
+           
+        <!-- Modal -->
+        <div id="my-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-body">
+              <span class="close">&times;</span>
+              <p>This is Void, the Goldendoodle.</p>
+             <img src="voidthedoodle.jpg">
+            </div>
+          </div>
+        </div>
         </section>
 
 
@@ -178,18 +189,6 @@
              <li><a class="react-card-link" href="https://maya-jade.github.io/react-card" target="_blank">Virtual Business Card</a> - A virtual business card app I created using React!</li>
            </ol>
           </div>
-                      <!-- Trigger/Open The Modal -->
-                      <button id="myBtn">Meet my boss</button>
-
-                      <!-- The Modal -->
-                      <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                          <span class="close">&times;</span>
-                          <p>His name is <a href="https://www.instagram.com/voidthedoodle">Void.</a> He's furry, proud, and friendly.</p>
-                          <img src="voidthedoodle.jpg">
-                        </div>
-                      </div>
                     </section>
 
    
@@ -226,6 +225,6 @@
 
         <!-- Javascript for Image Slideshow -->
         <script src="slideshow.js"></script>
-        <script src="index.js"></script>
+        <script src="modal.js"></script>
     </body>
 </html>
