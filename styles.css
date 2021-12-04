@@ -380,8 +380,25 @@ h3 {
 .about-me__img {
   grid-area:img;
   position:relative;
-  z-index:2
+  z-index:2;
 }
+}
+
+/* Modal Button  */
+.modal-button {
+  display:inline-block;
+  padding:.5em 2.5em;
+  background:var(--clr-accent);
+  color:#fff;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:.8rem;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight:var(--fw-bold);
+  transition:transform .2s ease-in-out;
+  font-size:1rem;
+  margin-bottom: 1em;
 }
 
 /* My Featured Projects Section  */
@@ -389,10 +406,6 @@ h3 {
   background-color:var(--clr-dark);
   color:var(--clr-light);
   text-align:center
-}
-
-.workh3 {
-  margin-top: 1em;
 }
 
 /* Slideshow Styles */
@@ -526,28 +539,33 @@ h3 {
   }
 
   /* Featured Projects (List) Section */
+.work-list {
+    max-width: 800px;
+    margin: 0px auto;
+  
+  }
+
+.work-list a {
+    color: var(--clr-accent);
+    text-decoration: none;
+  }
+  
+.work-list a:hover {
+    text-decoration: underline;
+    opacity:.7;
+  }
+
 .work-info h3 {
   text-align: center;
   margin-bottom: 2em;
 }
 
-.work-list{
-  max-width: 800px;
-  margin: 0px auto;
-
-}
-.work-list a {
-  color: var(--clr-accent);
+.void {
   text-decoration: none;
-}
-
-.work-list a:hover {
-  text-decoration: underline;
-  opacity:.7;
+  font-weight: bold;
 }
 
 .void:hover {
-  text-decoration: underline;
   opacity:.7;
 }
 
@@ -608,26 +626,9 @@ h3 {
   width: 40%;
   margin: auto; 
   overflow: hidden; 
-  /* transform: translate(-50%, -50%); */
 }
 
 /* Modal  */
-.modal-button {
-  /* display:inline-block; */
-  display: none;
-  padding:.5em 2.5em;
-  background:var(--clr-accent);
-  color:#fff;
-  text-decoration:none;
-  cursor:pointer;
-  font-size:.8rem;
-  text-transform:uppercase;
-  letter-spacing:2px;
-  font-weight:var(--fw-bold);
-  transition:transform .2s ease-in-out;
-  font-size:1rem;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -644,8 +645,8 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   background: #fff;
+  padding-bottom: 3em;
 }
 
 .modal-content {
@@ -656,14 +657,15 @@ h3 {
 }
 
 .close {
-  color: black;
+  color: var(--clr-dark);
   font-size: 50px;
   align-self: flex-end;
-  height: 5%;
+  margin-right: 0.5em;
+  cursor: pointer;
 }
 
 .close:focus, .close:hover {
-  color: gray;
+  color: var(--clr-accent);
 }
 
 @keyframes modalopen {
