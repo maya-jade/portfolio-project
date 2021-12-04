@@ -621,21 +621,12 @@ h3 {
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: relative; 
+  position: fixed; 
   z-index: 2; 
-  width: 40%;
-  margin: auto; 
-  overflow: hidden; 
-}
-
-/* Modal  */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 2;
+  right: 25%;
   top: 0;
-  overflow: auto;
-  margin-top:0;
+  width: 50%;
+  margin: 0 auto; 
 }
 
 .modal-body {
@@ -651,16 +642,19 @@ h3 {
 
 .modal-content {
   margin: 10% auto;
-  width: 50%;
+  width: 75%;
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
 }
 
+.modal img, .modal p {
+  padding: 0.5rem;
+}
 .close {
   color: var(--clr-dark);
-  font-size: 50px;
+  font-size: 2em;
   align-self: flex-end;
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
   cursor: pointer;
 }
 
