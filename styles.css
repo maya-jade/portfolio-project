@@ -420,7 +420,7 @@ h3 {
 }
 
 .slideshow-container img {
-  height:500px;
+  height: 600px;
 }
 
 @media (max-width: 1090px) {
@@ -469,7 +469,7 @@ h3 {
   width:auto;
   margin-top:-22px;
   padding:16px;
-  color:#fff;
+  color:black;
   font-weight:700;
   font-size:18px;
   transition:.6s ease;
@@ -489,6 +489,7 @@ h3 {
 
 .next:hover,.prev:hover {
   background-color:rgba(0,0,0,.8);
+  color: white;
 }
 
 .numbertext {
