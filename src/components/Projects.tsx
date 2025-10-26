@@ -38,7 +38,7 @@ const personalProjects: Project[] = [
   },
   {
     title: 'This Website!',
-    description: 'A portfolio site built with hand-coded HTML and CSS, designed for performance and clarity. Deployed via GitHub Pages.',
+    description: 'A portfolio site built with React and TypeScript, designed for performance and clarity. Deployed via Vercel.',
     link: 'https://github.com/maya-jade/portfolio-project'
   }
 ];

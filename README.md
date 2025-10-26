@@ -8,7 +8,7 @@ A modern portfolio website built with **React**, **TypeScript**, and **Vite**. T
 - **TypeScript** - Type-safe JavaScript
 - **Vite** - Fast build tool and dev server
 - **CSS3** - Custom properties and responsive design
-- **GitHub Pages** - Automated deployment
+- **Vercel** - Automated deployment
 
 ## 📦 Getting Started
 
@@ -83,11 +83,11 @@ portfolio-project/
 
 ## 🚢 Deployment
 
-The site is automatically deployed to GitHub Pages via GitHub Actions when pushing to the `main` branch. The workflow:
+The site is automatically deployed to Vercel when pushing to the `main` branch. Vercel handles:
 
-1. Installs dependencies
-2. Builds the production bundle
-3. Deploys to GitHub Pages
+1. Installing dependencies
+2. Building the production bundle
+3. Deploying to the CDN
 
 ## 📄 License
 
